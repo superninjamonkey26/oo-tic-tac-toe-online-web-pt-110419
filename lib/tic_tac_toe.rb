@@ -91,7 +91,8 @@ class TicTacToe
     end
   end
   def over?
-    if 
+    if won? || draw?
+      
   end
   def winner
     index = []
