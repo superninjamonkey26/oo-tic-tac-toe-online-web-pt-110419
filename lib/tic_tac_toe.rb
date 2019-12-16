@@ -126,4 +126,4 @@ class TicTacToe
 end
 puts "Welcome to TicTacToe!"
 game = TicTacToe.new
-#game.play
+game.play
