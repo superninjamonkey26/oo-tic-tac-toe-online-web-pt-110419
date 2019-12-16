@@ -91,7 +91,7 @@ class TicTacToe
     end
   end
   def over?
-    @board.all? {|index| index == "X" || index == "O"}
+    if 
   end
   def winner
     index = []
